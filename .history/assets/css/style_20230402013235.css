@@ -62,6 +62,11 @@ a {
     line-height: 1.26;
 }
 
+.heading.lv2 {
+    font-size: 3.8rem;
+    line-height: 1.26;
+}
+
 .line-clamp {
     display: -webkit-box;
     -webkit-line-clamp: var(--line-clamp, 1);
@@ -676,12 +681,10 @@ header.fixed {
 
 .footer .row {
     display: flex;
-    padding-bottom: 28px;
-    border-bottom: 1px solid #59554B;
 }
 
 .footer .row .colum {
-    width: 21%;
+    width: 21.6%;
 }
 
 .footer .row .colum:first-child {
@@ -700,47 +703,4 @@ header.fixed {
     display: flex;
     gap: 18px;
     margin-top: 18px;
-}
-
-.footer .colum .title {
-    display: inline-block;
-    padding-bottom: 14px;
-    padding-right: 48px;
-    font-weight: 600;
-    font-size: 1.6rem;
-    line-height: 1.75;
-    color: #FFFFFF;
-    border-bottom: 1px solid #59554B;
-}
-
-.footer .colum .list {
-    margin-top: 28px;
-}
-
-.footer .colum .list a {
-    display: inline-block;
-    margin-top: 12px;
-    font-size: 1.4rem;
-    line-height: 1.86;
-    color: #BFBCB2;
-}
-
-.footer .colum .list li:first-child a {
-    margin-top: 0;
-}
-
-.footer .colum .list strong {
-    font-weight: 600;
-    color: #fff
-}
-
-.footer .copy-right {
-    padding: 28px 0;
-}
-
-.footer .copy-right .desc {
-    font-size: 14px;
-    line-height: 1.86;
-    text-align: center;
-    color: #807D74;
 }

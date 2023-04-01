@@ -681,7 +681,7 @@ header.fixed {
 }
 
 .footer .row .colum {
-    width: 21%;
+    width: 21.6%;
 }
 
 .footer .row .colum:first-child {
@@ -739,8 +739,12 @@ header.fixed {
 }
 
 .footer .copy-right .desc {
-    font-size: 14px;
-    line-height: 1.86;
+        font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+
     text-align: center;
+
     color: #807D74;
+
 }
