@@ -577,12 +577,11 @@ header.fixed {
     display: flex;
     gap: 30px;
     margin-top: 55px;
-    overflow: hidden;
 }
 
 .blog .blog-list .item {
-    flex-shrink: 0;
-    width: calc(33.33% - 20px);
+    flex
+    width: 33.33%;
     background: #ffffff;
     border-radius: 16px;
 }

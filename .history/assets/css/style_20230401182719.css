@@ -577,12 +577,10 @@ header.fixed {
     display: flex;
     gap: 30px;
     margin-top: 55px;
-    overflow: hidden;
 }
 
 .blog .blog-list .item {
-    flex-shrink: 0;
-    width: calc(33.33% - 20px);
+    width: 33.33%;
     background: #ffffff;
     border-radius: 16px;
 }
@@ -665,10 +663,8 @@ header.fixed {
     height: 6px;
     background: #5F5B53;
     border-radius: 50%;
-    cursor: pointer;
 }
 
 .blog .dot.active {
-    background: var(--primary-color);
-    cursor: default;
+    background: var();
 }
